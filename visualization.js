@@ -1,5 +1,5 @@
 // fetch(`/api/surveyResponses/1`)
-fetch(`https://cosmos-wellbeing-function-app.azurewebsites.net/api/surveyResponses/1`)
+fetch(`https://org-well-being-function-app.azurewebsites.net/api/surveyResponses/1`)
     .then(function (response) {
         if (!response.ok) {
             throw new Error("HTTP error, status = " + response.status);
@@ -16,7 +16,7 @@ fetch(`https://cosmos-wellbeing-function-app.azurewebsites.net/api/surveyRespons
 
 
     // fetch(`/api/surveyResponses/2`)
-fetch(`https://cosmos-wellbeing-function-app.azurewebsites.net/api/surveyResponses/2`)
+fetch(`https://org-well-being-function-app.azurewebsites.net/api/surveyResponses/2`)
     .then(function (response) {
         if (!response.ok) {
             throw new Error("HTTP error, status = " + response.status);
